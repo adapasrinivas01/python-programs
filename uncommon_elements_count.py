@@ -1,0 +1,7 @@
+m,n=map(int,input().split())
+l=list(map(int,input().split()))
+r=list(map(int,input().split()))
+l=set(l)
+r=set(r)
+uc_elements=l.symmetric_difference(r)
+print(len(uc_elements))
